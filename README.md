@@ -18,7 +18,7 @@ You can easily use this model with our evaluation code or with our demo server c
 
 In order to use our pretrained model:
 
-- Compile the `feature/20160617_cb_softattention` branch of [our fork of Caffe](https://github.com/akirafukui/caffe/). This branch contains Yang Gao’s Compact Bilinear layers ([dedicated repo](https://github.com/gy20073/compact_bilinear_pooling), [paper](https://arxiv.org/abs/1511.06062)) released under the [BDD license](https://github.com/gy20073/compact_bilinear_pooling/blob/master/LICENSE), and Ronghang Hu’s Soft Attention layers ([paper](https://arxiv.org/abs/1511.03745)) released under BSD 2-clause.
+- Compile the `feature/20160617_cb_softattention` branch of [our fork of Caffe](https://github.com/akirafukui/caffe/). This branch contains Yang Gao’s Compact Bilinear layers ([dedicated repo](https://github.com/gy20073/compact_bilinear_pooling), [paper](https://arxiv.org/abs/1511.06062)) released under the [BDD license](https://github.com/gy20073/compact_bilinear_pooling/blob/master/caffe-20160312/LICENSE_BDD), and Ronghang Hu’s Soft Attention layers ([paper](https://arxiv.org/abs/1511.03745)) released under BSD 2-clause.
 - Download the [pre-trained ResNet-152 model](https://github.com/KaimingHe/deep-residual-networks).
 
 If you want to train from scratch, do the above plus:
