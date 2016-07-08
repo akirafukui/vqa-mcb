@@ -1,0 +1,21 @@
+# The train/test net protocol buffer definition
+train_net: "./result/proto_train.prototxt"
+test_net: "./result/proto_test.prototxt"
+
+max_iter: 1000000
+display: 10000
+snapshot: 5000
+snapshot_prefix: "./result/"
+
+# The base learning rate, momentum and the weight decay of the network.
+solver_type: ADAM
+base_lr: 0.0007
+momentum: 0.9
+momentum2: 0.999
+weight_decay: 0.000
+lr_policy: "fixed"
+test_iter: 25
+test_interval: 10000000
+
+# accumulate gradients
+iter_size: 2 
