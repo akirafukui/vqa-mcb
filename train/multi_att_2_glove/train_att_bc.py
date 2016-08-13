@@ -202,8 +202,6 @@ def main():
         f.write(str(qlstm('val', config.VAL_BATCH_SIZE, \
             config.MAX_WORDS_IN_QUESTION, len(question_vocab))))
 
-    raise
-
     caffe.set_device(config.GPU_ID)
     caffe.set_mode_gpu()
     solver = caffe.get_solver('./qlstm_solver.prototxt')
